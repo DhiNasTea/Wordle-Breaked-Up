@@ -105,7 +105,7 @@ void filterList(vector<string>& words, string guess, string result) {
 int main()
 {
     cout << "welcome" << endl << endl;
-    cout << "you will need to enter the word first, then enter w (wrong), t (there) " << endl << "or c (correct) for each letter of that word" << endl;
+    cout << "you will need to enter the word first, then enter w (wrong), t (there) " << endl << "or g (good) for each letter of that word" << endl;
     cout << "example:" << endl;
     cout << "range" << endl;
     cout << "wttcw" << endl << "meaning that \"r\" and \"e\" are not in the word, \"a\" and \"n\" are there " << endl << "but misplaced and \"g\" is in the correct position." << endl;
